@@ -213,7 +213,7 @@ section {
 }
 
 #portfolio * {
-  z-index: 2;
+  z-index: 200;
 }
 
 @media (min-width:767px) {

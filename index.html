@@ -14,17 +14,37 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css'>
   <!-- magnific-popup -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=News+Cycle&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="profile.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 <!-- nav -->
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Hi , I'm Dat !</a>
-        </div>
-      </nav>
+   
+
+<nav class="navbar fixed-top  navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><small class="text-muted font-italic">datdv260497@gmail.com<small>></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Effects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#challen">Challenges</a>
+        </li> 
+      </ul>
+    </div>
+  </div>
+</nav>
 <!-- header -->
   <!-- Header & Jumbotron-->
   <a name="about"></a>
@@ -34,166 +54,139 @@
         <div class="col-lg-7">
           <div class="intro-message">
             <h1>Hi there!</h1>
-            <h2>My name is Duong Van Dat. <br>I am Freelance Designer from VietNam.</h2>
-            <h3>I'm a .Net developer but have a passion for design. I love designing website themes, filters and posters or logos...</h3>
+            <h2>My name is Duong Van Dat <br>I'm Freelance Designer from Viet Nam</h2>
+            <h6 class="font-italic text-muted">I'm a .Net developer but have a passion for design. I love designing website themes, filters, posters and logo.<br>I've always wanted to be a creator so I can use my creativity to create cool filters for everyone.<br>And finally I'm happy if I have the opportunity to work with people in the creative field</h6>
 
             <ul class="list-inline intro-social-buttons">
               <li>
-                <a href="https://www.tiktok.com/@relax_filter?lang=vi-VN" target="_blank" class="btn btn-default btn-lg"><image src="images/tiktok.png"> <span class="network-name">Tiktok</span></a>
+                <a href="https://www.tiktok.com/@relax_filter?lang=vi-VN" target="_blank" class="btn btn-default btn-lg"><image src="images/icons8-tiktok-50.png"> <span class="network-name">Tiktok</span></a>
               </li>
               <li>
-                <a href="https://www.facebook.com/profile.php?id=100004717833334" target="_blank" class="btn btn-default btn-lg "><i class="fa fa-github fa-fw"></i> <span class="network-name">Facebook</span></a>
+                <a href="https://www.facebook.com/profile.php?id=100004717833334" target="_blank" class="btn btn-default btn-lg "><image src="images/icons8-linkedin-50.png"> <span class="network-name">Facebook</span></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/%C4%91%E1%BA%A1t-d%C6%B0%C6%A1ng-787b56259/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                <a href="https://www.linkedin.com/in/%C4%91%E1%BA%A1t-d%C6%B0%C6%A1ng-787b56259/" target="_blank" class="btn btn-default btn-lg"><image src="images/icons8-facebook-50.png">  <span class="network-name">Linkedin</span></a>
               </li>
 
             </ul>
           </div>
         </div>
         <div class="col-lg-5 p-2">
-            <image src="images/IMG_6435.png" class="img-thumbnail" style=" display: block;
+            <image src="images/IMG_6435.png" class="rounded-circle" style=" display: block;
             max-width: 100%;
             height: auto;"></image>
-        </div>
+        </div> 
 
       </div>
     </div>
   </div>
 
-
-
-  <section class="portfolio-section" id="portfolio">
+<div class="row">
+  <section class="portfolio-section container" id="portfolio">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2>Filter Gallery</h2>
-          <p>Use all the same size pictures :)</p>
+          <h2>Effect Gallery</h2>
+          <p>Effect  highlights :)</p>
         </div>
       </div>
       <div class="portfolio-menu mt-2 mb-4">
         <nav class="controls">
           <button type="button" class="control outline" data-filter="all">All</button>
-          <button type="button" class="control outline" data-filter=".web">Web Design</button>
-          <button type="button" class="control outline" data-filter=".dev">Development</button>
-          <button type="button" class="control outline" data-filter=".wp">WordPress</button>
+          <button type="button" class="control outline" data-filter=".game">Game</button>
+          <button type="button" class="control outline" data-filter=".interract">Interact</button>
+          <button type="button" class="control outline" data-filter=".music">Music</button>
+          <button type="button" class="control outline" data-filter=".makup">Makeup</button>
+          <button type="button" class="control outline" data-filter=".ar">3D</button>
+                
+          
         </nav>
       </div>
       <ul class="row portfolio-item">
-        <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="/images/IMG_6435.png" itemprop="thumbnail" alt="Image description" />
+        <li class="mix game col-xl-3 col-md-4 col-12 col-sm-6 pd justify-content-center">
+          <img src="./images/game1.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;" />
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Pouring Water</p>
+              <a href="https://vm.tiktok.com/ZMY9eKnFv/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
         </div>
         </li>
-        <li class="mix web col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix game col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game3.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto"style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Bowling</p>
+              <a href="https://vm.tiktok.com/ZMY9eoMGS/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix wp col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix game col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game5.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category"></p>
+              <a href="https://vm.tiktok.com/ZMY9deA7H/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd ">
-          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix game col-xl-3 col-md-4 col-12 col-sm-6 pd ">
+          <img src="./images/game9.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Christmas</p>
+              <a href="https://vm.tiktok.com/ZMY9deA7H/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix web col-xl-3 col-md-4 col-12 col-sm-6 pd ">
-          <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix game col-xl-3 col-md-4 col-12 col-sm-6 pd ">
+          <img src="./images/game11.jpeg" itemprop="thumbnail" alt="Image description"  class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Arrange Umbrellas</p>
+              <a href="https://vm.tiktok.com/ZMY9deA7H/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix wp col-xl-3 col-md-4 col-12 col-sm-6 pd ">
-          <img src="https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix interract col-xl-3 col-md-4 col-12 col-sm-6 pd ">
+          <img src="./images/game12.jpeg" itemprop="thumbnail" alt="Image description" style="width: 270px; height:auto;" class="img-responsive center-block d-block mx-auto"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Months Of Years</p>
+              <a href="https://vm.tiktok.com/ZMY9djNxG/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix interract col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game16.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Pray with candle</p>
+              <a href="https://vm.tiktok.com/ZMY9ddECL/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                 </div>
@@ -206,91 +199,79 @@
             </div>
           </div>
         </li>
-        <li class="mix web col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix music col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game13.jpeg" itemprop="thumbnail" alt="Image description" style="width: 270px; height:auto;" class="img-responsive center-block d-block mx-auto"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Wave Music 1</p>
+              <a href="https://vm.tiktok.com/ZMY9eGY4u/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix wp col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix music col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game14.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Wave Music 2</p>
+              <a href="https://vm.tiktok.com/ZMY9d2LkY/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix dev col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix music col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game15.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Wave music 3</p>
+              <a href="https://vm.tiktok.com/ZMY9dRc5T/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix web col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix ar col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game17.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Diver</p>
+              <a href="https://vm.tiktok.com/ZMY9eKuhC/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                </div>
-              </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" data-size="1200x600">
-                <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
           </div>
         </li>
-        <li class="mix wp col-xl-3 col-md-4 col-12 col-sm-6 pd">
-          <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" itemprop="thumbnail" alt="Image description" />
+        <li class="mix ar col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game18.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
           <div class="portfolio-overlay">
             <div class="overlay-content">
-              <p class="category">Project Name</p>
-              <a href="#" title="View Project" target="_blank">
+              <p class="category">Dancing</p>
+              <a href="https://vm.tiktok.com/ZMY9d9S4s/" title="View Project" target="_blank">
                 <div class="magnify-icon">
                   <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                 </div>
               </a>
-              <a data-fancybox="item" title="click to zoom-in" href="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" data-size="1200x600">
+            </div>
+          </div>
+        </li>
+        <li class="mix makup col-xl-3 col-md-4 col-12 col-sm-6 pd">
+          <img src="./images/game19.jpeg" itemprop="thumbnail" alt="Image description" class="img-responsive center-block d-block mx-auto" style="width: 270px; height:auto;"/>
+          <div class="portfolio-overlay">
+            <div class="overlay-content">
+              <p class="category">Makup</p>
+              <a href="https://vm.tiktok.com/ZMY9dhKPU/" title="View Project" target="_blank">
                 <div class="magnify-icon">
-                  <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                  <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                 </div>
               </a>
             </div>
@@ -299,6 +280,31 @@
       </ul>
     </div>
   </section>
+</div>
+<div class="row">
+  <div class="container-fluid mt-3 p-5" id="challen">
+    <h1 class="text-center">Challenges</h1>
+    <ul class="list-group text-white text-center" style="list-style: none;" >
+      <li class="p-2" ><h2>Win the mission 2 times</h2></li>
+      <li class="p-2"><h2>People’s Favorites Genshin Impact</h2></li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="copyright text-muted small">Copyright &copy; 2023. All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
 
   <!-- JS Links -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
